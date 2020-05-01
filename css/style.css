@@ -1,11 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 * {
 	box-sizing: border-box;
 }
 body {
-	background: lightgrey;
 	font-family: 'Raleway', sans-serif;
 	display: flex;
 	flex-direction: column;
@@ -13,6 +11,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	margin: 0;
+	background: url("../images/Winter-holidays-bokeh.jpg");
 }
 .currency {
 	display: flex;
@@ -39,16 +38,14 @@ body {
 	text-align: right;
 }
 .middle {
-	color: #f59300;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .middle button {
-	background-color: #fff;
+	background-color: lightgray;
 	border: 2px solid lightgray;
 	cursor: pointer;
-	color: #f59300;
 	font-size: 18px;
 	display: flex;
 	align-items: center;
@@ -72,4 +69,10 @@ select:focus, input:focus, button:focus {
 }
 select, input{
 	font-family: 'Raleway', sans-serif;
+}
+.container {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 5px 5px 5px gray;
 }
